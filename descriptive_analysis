@@ -1,0 +1,17 @@
+Cryptocurrency Market (Top 50 by Market Cap)
+
+1. Price distribution 
+- The average price is 5927.5$, while the median is only 2.22$. The distribution is very imbalanced (skewed).
+- We can also observe that the maximum price is 91363$ and the minimum one is 0.000009$, meaning that there is at least one cryptocurrency which completely dominates the market. Also, because of the minimum price, we can confidently say that there are cryptocurrencies extremely cheap and afordable in the Top50.
+    Conclusion: CryptoMarket is extremely unbalanced, but afordable depending on the currency.
+
+2. Market Cap 
+- The average is around 62 bilions of $, while the median is 8 bilions of $, so again a skewed distribution. 
+    Conclusion: Lower market cap assets are more volatile and more susceptible to price manipulation, making them riskier for investing, compared to major cryptocurrencies such as Bitcoin and Ethereum.
+
+3. Total volume 24h
+    Conclusion: The majority of currencies have a modest trading volume, but some of the assets have a significantly high trading volume, suggesting strong investor interest and a very active market.
+
+4. Absolute and procentual changes 24h
+    Conclusion: The wide fluctuation range, from -16% to +14%, highlights a strong volatility. This instability suggests that there can be short-term trading opportunities, but these are also associated with a notably high risk.
+

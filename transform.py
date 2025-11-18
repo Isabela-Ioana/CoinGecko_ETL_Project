@@ -25,6 +25,15 @@ def transform_crypto_data(df):
     for col in columns_tobedate:
         df[col]=pd.to_datetime(df[col],errors="coerce")
 
+    columns_tobepositive=["current_price", "market_cap", "total_volume"]
+    for col in columns_tobepositive:
+        raise ValueError(f"Column {col} has negative value/s!")
+    
+    if df.duplicated(subset=["id"]).any():
+        raise ValueError("Duplicate IDs have been found!")
+
+
+
     df.dropna(subset=["id", "symbol", "current_price"],inplace=True)
 
     return df

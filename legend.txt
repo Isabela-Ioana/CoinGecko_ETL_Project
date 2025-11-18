@@ -1,0 +1,11 @@
+Columns:
+    id
+    symbol 
+    name 
+    current_price  = current price in USD
+    market_cap
+    total_volume = volume in the last 24h
+    price_change_24h = absolut change of price
+    price_change_percentage_24h= procentual change
+    last_updated= timestamp
+    etl_timestamp

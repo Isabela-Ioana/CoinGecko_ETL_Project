@@ -6,7 +6,7 @@ import requests
 
 #Read the key from the json file
 def load_api_key():
-    with open("config.json") as f:      #assures that the file will be closed
+    with open("config2.json") as f:      #assures that the file will be closed
         config= json.load(f)
     return config["coingecko_api_key"]
 
