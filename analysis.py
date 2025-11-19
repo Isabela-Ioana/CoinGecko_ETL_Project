@@ -9,3 +9,5 @@ df = pd.read_csv("crypto_data.csv")
 #Descriptive statistics - see descriptive_analysis.txt
 print(df.describe())
 
+
+
