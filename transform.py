@@ -35,7 +35,7 @@ def transform_crypto_data(df):
 
 
 
-    df.dropna(subset=["id", "symbol", "current_price"])
+    df = df.dropna(subset=["id", "symbol", "current_price"])
 
     return df
 

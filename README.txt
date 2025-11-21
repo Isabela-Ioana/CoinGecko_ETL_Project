@@ -1,0 +1,2 @@
+This project consists of an exploratory data analysis (EDA) script based on a data snapshot.
+For my automated Data Engineering pipeline, please see the following repository: [*link to the new project- in work*].
